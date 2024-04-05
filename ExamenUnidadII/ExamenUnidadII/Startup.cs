@@ -1,4 +1,6 @@
 ﻿using ExamenUnidadII.Database;
+using ExamenUnidadII.Services;
+using ExamenUnidadII.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace ExamenUnidadII
@@ -24,6 +26,10 @@ namespace ExamenUnidadII
 
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
+            services.AddTransient<IPatientsService, PatientsService>();
+
+            
+
             services.AddCors(options =>
             {
 
@@ -37,6 +43,7 @@ namespace ExamenUnidadII
                 });
 
             });
+
             services.AddAutoMapper(typeof(Startup));
 
             services.AddEndpointsApiExplorer();

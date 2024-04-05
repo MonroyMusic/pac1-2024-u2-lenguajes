@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using ExamenUnidadII.Dtos.Patients;
+using ExamenUnidadII.Entities;
 
 namespace ExamenUnidadII.Helpers
 {
@@ -15,7 +17,8 @@ namespace ExamenUnidadII.Helpers
         private void MapsForPatient()
         {
 
-            
+            CreateMap<PatientEntity, PatientDto>();
+            CreateMap<PatientCreateDto, PatientEntity>();
 
         }
 

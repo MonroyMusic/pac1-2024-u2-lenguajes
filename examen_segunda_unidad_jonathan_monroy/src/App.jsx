@@ -10,55 +10,48 @@ function App() {
 
   const [ people, setPeople ] = useState([])
 
-  const handleSubmit = (e) => {
-
-    e.preventDefault();
-
-    console.log(name);
-    console.log(genre);
-    console.log(weight);
-    console.log(height);
-
-    const meter = height/100
-
-    const sq = meter * meter
-
-    const imc = weight/sq
-
-    console.log(imc)
-
-    if (imc <= 18.5) {
-      
-      console.log('Bajo Peso');
-
-    }else if (18.5 < imc <= 24.9 ) {
-      
-      console.log('Peso Normal');
-
-    }else if (25.0 < imc <= 29.9 ) {
-      
-      console.log('Sobrepeso');
-
-    }else if (30.0 < imc <= 34.9 ) {
-      
-      console.log('Obesidad Grado I');
-
-    }else if (35.0 < imc <= 39.9 ) {
-      
-      console.log('Obesidad Grado II');
-
-    }else if (imc > 40.0) {
-      
-      console.log('Obesidad Grado III');
-
-    }
+  const handleSubmit = (e) => {    
     
+    addPatient();
+
   }
 
 
-  const addPatient = () => {
+  const addPatient = async () => {
 
+    try {
+      
+      const response = await fetch('https://localhost:7275/api/patients',
     
+      {
+
+        method: 'POST',
+
+        headers: {
+
+          'Content-Type': 'application/json'
+
+        },
+
+        body: JSON.stringify(people)
+
+      });
+
+      if (!response.ok) {
+        
+        throw new Error('Error al agregar al paciente')
+
+      }
+
+      setName({... people, name:''})
+      setWeight({... people, weight:''})
+      setHeight({... people, height:''})
+      
+    } catch (error) {
+      
+      console.error(error);
+
+    }
 
   }
 

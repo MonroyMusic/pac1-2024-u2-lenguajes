@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Universidad\\Lenguajes de Programación\\Unidad II\\ExamenUnidadII\\ExamenUnidadII\\ExamenUnidadII.csproj": {}
+    "D:\\Universidad\\Lenguajes de Programación\\Unidad II\\Examen\\ExamenUnidadII\\ExamenUnidadII\\ExamenUnidadII.csproj": {}
   },
   "projects": {
-    "D:\\Universidad\\Lenguajes de Programación\\Unidad II\\ExamenUnidadII\\ExamenUnidadII\\ExamenUnidadII.csproj": {
+    "D:\\Universidad\\Lenguajes de Programación\\Unidad II\\Examen\\ExamenUnidadII\\ExamenUnidadII\\ExamenUnidadII.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Universidad\\Lenguajes de Programación\\Unidad II\\ExamenUnidadII\\ExamenUnidadII\\ExamenUnidadII.csproj",
+        "projectUniqueName": "D:\\Universidad\\Lenguajes de Programación\\Unidad II\\Examen\\ExamenUnidadII\\ExamenUnidadII\\ExamenUnidadII.csproj",
         "projectName": "ExamenUnidadII",
-        "projectPath": "D:\\Universidad\\Lenguajes de Programación\\Unidad II\\ExamenUnidadII\\ExamenUnidadII\\ExamenUnidadII.csproj",
+        "projectPath": "D:\\Universidad\\Lenguajes de Programación\\Unidad II\\Examen\\ExamenUnidadII\\ExamenUnidadII\\ExamenUnidadII.csproj",
         "packagesPath": "C:\\Users\\MonroyMusic\\.nuget\\packages\\",
-        "outputPath": "D:\\Universidad\\Lenguajes de Programación\\Unidad II\\ExamenUnidadII\\ExamenUnidadII\\obj\\",
+        "outputPath": "D:\\Universidad\\Lenguajes de Programación\\Unidad II\\Examen\\ExamenUnidadII\\ExamenUnidadII\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MonroyMusic\\AppData\\Roaming\\NuGet\\NuGet.Config",

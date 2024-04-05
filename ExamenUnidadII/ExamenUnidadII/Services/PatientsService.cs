@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using ExamenUnidadII.Database;
+using ExamenUnidadII.Dtos;
 using ExamenUnidadII.Dtos.Patients;
 using ExamenUnidadII.Entities;
 using ExamenUnidadII.Services.Interfaces;
@@ -70,7 +71,7 @@ namespace ExamenUnidadII.Services
 
         }
 
-        public async Task<ResponseDto<PatientDto>> CreateAsync(PatientDto model)
+        public async Task<ResponseDto<PatientDto>> CreateAsync(PatientCreateDto model)
         {
 
             var patientEntity = _mapper.Map<PatientEntity>(model);

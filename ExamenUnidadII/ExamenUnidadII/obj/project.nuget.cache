@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9u4vkN4J3Jsx1+BG+RcuJ3/sVbNmqEVQIsHM1MRWTQjVJrwONfYA1IJQQFYBL/yocAykeOgWPy/lIVEFd+GTvw==",
+  "dgSpecHash": "KAXrAiTKsVjJQLTF/TTryY2xZ5efCmITh1uhu9uM6HBw2Hm+jajTpEy0aCdEdc6/22/j0zY1xPt7VnB1wmZzRg==",
   "success": true,
-  "projectFilePath": "D:\\Universidad\\Lenguajes de Programación\\Unidad II\\ExamenUnidadII\\ExamenUnidadII\\ExamenUnidadII.csproj",
+  "projectFilePath": "D:\\Universidad\\Lenguajes de Programación\\Unidad II\\Examen\\ExamenUnidadII\\ExamenUnidadII\\ExamenUnidadII.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MonroyMusic\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\MonroyMusic\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

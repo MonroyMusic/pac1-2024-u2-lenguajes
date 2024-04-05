@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace ExamenUnidadII.Dtos.Patients
+namespace ExamenUnidadII.Dtos
 {
     public class ResponseDto<T>
     {
